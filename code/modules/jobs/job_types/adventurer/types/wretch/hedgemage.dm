@@ -49,7 +49,6 @@
 	H.change_stat(STATKEY_STR, -2)
 	H.change_stat(STATKEY_CON, -2)
 	H.change_stat(STATKEY_END, -1)
-	H.change_stat(STATKEY_SPD, -2)
 	H.adjust_spell_points(12)
 	H.add_spell(/datum/action/cooldown/spell/undirected/touch/prestidigitation)
 	wretch_select_bounty(H)
